@@ -6,7 +6,7 @@ Opal Koboi.
 
 [Girls Who Code Webpage](http://gwcsj.weebly.com/ "Girls Who Code Webpage")
 
-[Welcome to the Ultimate Minecraft Guide] (http://opalk2014.github.io/Project_No.1_Web./index.html)
+[Welcome to the Ultimate Minecraft Guide] (http://opalk2014.github.io/Project_No.1_Web./Intro/index.html)
 
 
 
