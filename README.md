@@ -1,4 +1,4 @@
-![alt text](http://girlswhocode.com/wp-content/uploads/2014/06/gwclogo1.png "Girls Who Code")
+![alt text](http://www.newtongwc.org/_/rsrc/1420643416451/config/customLogo.gif?revision=5 "Girls Who Code")
 # Girls Who Code Project 1- Create a Website!
 
 This repository consists of several pages of what I plan as for my project in Girls Who Code, a national organization in which plans to break the gender line in coding. This year's project consists of us designing our own individual project completely from scratch. Please contribute as you may, but no copyrights please. Thank you and hope you consider checking out my website or the GWC website. Thanks, and from your genius elvish mastermind,
