@@ -7,6 +7,7 @@ This repository consists of several pages of what I plan as for my project in Gi
 Opal Koboi.
 
 [Girls Who Code Webpage](http://gwcsj.weebly.com/ "Girls Who Code Webpage")
+
 [Welcome to the Ultimate Minecraft Guide] (http://opalk2014.github.io/Project_No.1_Web./index.html)
 
 
