@@ -6,6 +6,6 @@ This is a program to review the journals and other various other works of Girls 
 
 [Girls Who Code Webpage](http://gwcsj.weebly.com/ "Girls Who Code Webpage")
 
-[[Magic Muffins](https://www.youtube.com/watch?v=iDruf1g_s6w)](http://www.youtube.com/watch?v=iDruf1g_s6wE)
+
 
 
