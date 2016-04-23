@@ -3,11 +3,15 @@ font-family: arial;
 padding:70px;
 background-image: url("http://pre06.deviantart.net/fae5/th/pre/f/2012/155/3/0/the_elusive_prize_by_chickenman_16-d52bpx7.png");
 }
-.nav {
-  display: block;
-  background-image: url("http://pre06.deviantart.net/fae5/th/pre/f/2012/155/3/0/the_elusive_prize_by_chickenman_16-d52bpx7.png");
+
+li {
+   display: block;
+  background-color:#7C8082 ;
   padding: 10px;
   color: #FFFFFF;
   text-align: center;
   font-size: 17px;
+}
+.nav  {
+  color: #FFFFFF;
 }
