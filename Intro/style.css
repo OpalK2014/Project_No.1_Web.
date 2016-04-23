@@ -11,6 +11,8 @@ background-image: url("http://pre06.deviantart.net/fae5/th/pre/f/2012/155/3/0/th
   text-align: center;
   font-size: 17px;
 }
+.nav li a {
+  color: #FFFFFF;
 li {
    display: block;
   background-color:#7C8082 ;
