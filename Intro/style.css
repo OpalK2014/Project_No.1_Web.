@@ -11,6 +11,7 @@ li {
   color: #FFFFFF;
   text-align: center;
   font-size: 17px;
+  list-style-type: none;
 }
 .nav  {
   color: #FFFFFF;
