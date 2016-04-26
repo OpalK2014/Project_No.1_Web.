@@ -11,7 +11,7 @@ li {
   color: #FFFFFF;
   text-align: center;
   font-size: 17px;
-  list-style-type: none;
+  list-style-type: none; /*This is from renee/*
 }
 .nav  {
   color: #FFFFFF;
