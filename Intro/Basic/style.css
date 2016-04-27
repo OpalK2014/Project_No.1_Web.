@@ -1,6 +1,6 @@
 body {
 font-family: arial;
-padding:70px;
+padding:50px;
 background-image: url("http://pre06.deviantart.net/fae5/th/pre/f/2012/155/3/0/the_elusive_prize_by_chickenman_16-d52bpx7.png");
 }
 
@@ -11,7 +11,30 @@ li {
   color: #FFFFFF;
   text-align: center;
   font-size: 17px;
+  list-style-type: none;
 }
 .nav  {
   color: #FFFFFF;
+  
+}
+
+.nav li a:hover {
+    background-color: #15d1db;
+}
+#current {
+    background-color: #15d1db;
+}
+.main {
+ font-size: 22px;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 17px;
 }
