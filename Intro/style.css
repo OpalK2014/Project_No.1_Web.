@@ -18,7 +18,7 @@ li {
   
 }
 
-.nav li a:hover {
+.nav li :hover {
     background-color: #15d1db;
 }
 #current {
