@@ -11,8 +11,18 @@ li {
   color: #FFFFFF;
   text-align: center;
   font-size: 17px;
-  list-style-type: none; /*This is from renee/*
+  list-style-type: none;
 }
 .nav  {
   color: #FFFFFF;
+  
 }
+
+.nav li a:hover {
+    background-color: #15d1db;
+}
+#current {
+    background-color: #15d1db;
+}
+.main {
+ font-size: 22px;
