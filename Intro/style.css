@@ -1,6 +1,5 @@
 body {
 font-family: arial;
-padding:50px;
 background-image: url("http://pre06.deviantart.net/fae5/th/pre/f/2012/155/3/0/the_elusive_prize_by_chickenman_16-d52bpx7.png");
 }
 
@@ -26,6 +25,7 @@ li {
 }
 .main {
  font-size: 22px;
+ padding:50px;
 }
 .nav li {
     float: left;
