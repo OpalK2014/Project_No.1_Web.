@@ -169,6 +169,158 @@
         <p>
         The best place for a list to download mods is on the Wiki's mods page. It is a reliable place to find mods and it is updated frequently. Alternatively, mods can be found on the Minecraft Forum's Mods section. Note that this section has in excess of almost 600 pages so it can be tedious to find a mod that you're looking for or good mods.
         </p>
-        
+        <p>
+          If getting mods that are copies of big mods, such as a TooManyItems copy, they might have malware in them, so it is best to get the mod you want from the original topic. If any of the files you download are not class, png, or any audio files, or folders with those items, and are not an installer, DO NOT OPEN THEM. Make sure to run the zip file or folder through your computer's antivirus program before putting the mod into your jar. If any mods were downloaded from low quality sites scanning them with anti-virus programs will likely prevent any problems with your computer.
+        </p>
+        <h2>
+          Making Backups
+        </h2>
+        <p>
+          If you simply want to test a mod without any risk, simply backup .minecraft in its entirety. Restoring it will revert everything to a pre-modded state (including your worlds).
+
+          If you are going to mod in a more persistent and complex fashion then you should keep the following recommendations in mind:
+        </p>
+        <li>
+          Back up your worlds in .minecraft/saves
+        </li>
+        <li>
+          If you have had previous mods installed, back up the minecraft.jar too, so as not accidentally uninstall mods
+        </li>
+        <li>
+          If you wish to potentially keep your stats and achievements safe, backup the directory .minecraft/stats
+        </li>
+        <li>
+          Do not put custom mod only items in chests if you wish to access that world again from an unmodified version of Minecraft. It is possible that if you do so, when you remove the mod and then try to open or smash the chest, Minecraft might crash. If you do this accidentally, you can stand on top of the chest, and type in /setblock ~ ~-1 ~ air. It will delete the chest and the items inside it.
+        </li>
+        <p>
+          Backing up your worlds should be done every time you install a new mod.
+        </p>
+        <h2>
+          ModLoader, Spawnlist and friends
+        </h2>
+        <p>
+          There are many mods that absolutely require other mods to work, because they use some of the commands these other mods give. These are also known as utility mods. These mods include ModLoader (for adding mods in general), and Minecraft Forge, which is a more advanced version of modloader. These mods that are required by some mods will need to be installed with the mod before Minecraft is run. Without them, the mod will not work and can even lead to Minecraft crashing.
+        </p>
+        <p>
+          Mod authors may give a configuration file to change item ID's. Find the conflicting ID, and change it. Just remember that when an update for minecraft or for the mod comes out, you must use the same item ID's, or suffer the crashes. Here is a video tutorial showing you how to install Forge Mod Loader for Minecraft:
+        </p>
+        <iframe src="//www.youtube.com/embed/1-yLJH-VmcE?" width="425" height="239" frameborder="0" allowfullscreen="true"></iframe>
+        <h3><span class="mw-headline" id="Deleting_Mods.2C_fixing_crashes.2C_and_restoring_Minecraft">Deleting Mods, fixing crashes, and restoring <i>Minecraft</i></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Mods/Installing_mods&amp;veaction=edit&amp;vesection=8" title="Edit section: Deleting Mods, fixing crashes, and restoring Minecraft" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Mods/Installing_mods&amp;action=edit&amp;section=8" title="Edit section: Deleting Mods, fixing crashes, and restoring Minecraft">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+        <p>There are 3 ways to delete a mod.</p>
+        <ol>
+          <li>(only if mod is installed this way) Go into the mods folder in the .minecraft folder and remove the mod from the folder. (Later versions of Modloader only)</li>
+          <li>Restore your version of <i>Minecraft</i>, making sure to keep your worlds.</li>
+          <li>Force update. You can do this by clicking the button above 'login'.</li>
+        </ol>
+        <p>To restore <i>Minecraft</i>, go to the AppData folder. Go into Roaming. Move your .minecraft folder onto the desktop. (or wherever you wish) Open the Minecraft Launcher, making sure your username and password are correct and log in. The Minecraft Launcher will then download a new, fresh .minecraft folder into the Roaming folder. Once it is done, open your modded .minecraft folder. Go into the Saves folder. Do the same for the fresh, no mods .minecraft folder. Take your worlds from the modded .minecraft folder and put them into the saves folder in the fresh .minecraft folder. Your worlds should be fine, but any mod items in your world will disappear.</p>
+        <p>To fix a crash, consult the following problem solving list:</p>
+        <p>- Did you delete the META-INF folder in <a href="/Minecraft.jar" title="Minecraft.jar">minecraft.jar</a>?</p>
+        <p>- Forgot ModLoader?</p>
+        <p>- Do your mods have conflicting item or block IDs? If so, most mods have a properties file to change the block and item IDs.</p>
+        <p>- Look in modloader.txt to see what block ID(s) are conflicted.</p>
+        <p>- Is the mod made for your current version of Minecraft?</p>
+        <p>- Did you install any/all dependencies for the mod? For example, TurboModelThingy is required for the Planes Mod to work, and ModLoaderMP is required with Modloader for SDK's Guns Mod.</p>
+        <p>- Do you have the right version of Modloader?</p>
+        <p>- Do you have the right version of the mod?</p>
+        <p>- Are you SURE you installed the mod correctly? (consult any README file in the mod)</p>
+        <p>There are also utilities to restore the game automatically such as BlackScreenFix <a rel="nofollow" target="_self" class="external free" href="http://dl.dropbox.com/u/62819837/BlackScreenFix.exe">http://dl.dropbox.com/u/62819837/BlackScreenFix.exe</a></p>
+        <h3><span class="mw-headline" id="How_to_effectively_get_help">How to effectively get help</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Mods/Installing_mods&amp;veaction=edit&amp;vesection=9" title="Edit section: How to effectively get help" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Mods/Installing_mods&amp;action=edit&amp;section=9" title="Edit section: How to effectively get help">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+        <ul>
+          <li><b>DELETE</b> the META-INF folder.</li>
+          <li>Check to make sure there are no conflicting mods.</li>
+          <li>If using a Modloader mod, make sure the correct version of Modloader is installed.</li>
+          <li>Check the version of your mod.</li>
+          <li>Search a YouTube tutorial for the mod you are trying to install (make sure you watch a video with the correct OS and version of the mod).</li>
+        </ul>
+        <h2><span class="mw-headline" id="How_to_Install_Mods">How to Install Mods</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Mods/Installing_mods&amp;veaction=edit&amp;vesection=10" title="Edit section: How to Install Mods" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Mods/Installing_mods&amp;action=edit&amp;section=10" title="Edit section: How to Install Mods">edit source</a><span class="mw-editsection-bracket">]</span></span></h2>
+        <h3><span class="mw-headline" id="Installation_for_the_old_launcherWindows_95.2F98.5BSE.5D.2F2000.2FME.2FXP:">Installation for the old launcher<b>Windows 95/98[SE]/2000/ME/XP:</b></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Mods/Installing_mods&amp;veaction=edit&amp;vesection=11" title="Edit section: Installation for the old launcherWindows 95/98[SE]/2000/ME/XP:" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Mods/Installing_mods&amp;action=edit&amp;section=11" title="Edit section: Installation for the old launcherWindows 95/98[SE]/2000/ME/XP:">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+        <ol>
+          <li>Click <b>start</b>.</li>
+          <li>Click <b>Run...</b>.</li>
+          <li>Type <b>%appdata%/.minecraft/bin</b></li>
+          <li>Open <b>minecraft.jar</b> (It may appear only as minecraft).</li>
+          <li>Open the folder using an archive software (the most popular are 7zip and WinRAR). To do this, right-click <b>minecraft.jar</b> and hover to the <b>Open With</b> menu.</li>
+          <li>Delete the META-INF folder</li>
+          <li>Copy the class files into this folder. Exit the folder once you have copied the class files.</li>
+          <li>Certain mods will require you to copy files into other directories. Examples include:</li>
+        </ol>
+        <p>- <b>Resources</b> folder (found in the main <b>.minecraft</b> directory)<br />
+          - <b>Config</b> folder (found in main <b>.minecraft</b> directory)<br />
+          - The <b>.minecraft</b> folder<br />
+          Follow the instructions on your download for clarification on where to copy files to.</p>
+        <ul>
+          <li><b>Windows Vista, 7, 8, 8.1, and 10:</b></li>
+        </ul>
+        <p>Method 1:</p>
+        <ol>
+          <li>Click the Start Icon.</li>
+          <li>Go to C:/Users/(username)/Appdata/roaming/.minecraft</li>
+          <li>Open <b>bin</b> and you will see <b>minecraft.jar</b> (It may appear only as minecraft).</li>
+          <li>Open the folder using an archive software (the most popular are 7zip and WinRAR). To do this, right-click on <b>minecraft.jar</b> and hover to the <b>Open With</b> menu.</li>
+          <li>Copy the class files into this folder. Exit the folder once you have copied the class files.</li>
+          <li>Certain mods will require you to copy files into other directories. Examples include:</li>
+        </ol>
+        <p>- <b>Resources</b> folder (found in the main <b>.minecraft</b> directory)<br />
+          - <b>Config</b> folder (found in main <b>.minecraft</b> directory)<br />
+          - The <b>.minecraft</b> folder<br />
+          Follow the instructions on your download for clarification on where to copy files to.</p>
+        <ul>
+          <li><b>Linux:</b></li>
+        </ul>
+        <p>You will find <b>minecraft.jar</b> located in <b>~/.minecraft/bin/</b>. From Nautilus (or most other file browsers), press Ctrl+H to see hidden folders the navigate to .minecraft. If in the console, type, <b>ls -a ~/</b> and you will find the <b>.minecraft</b> directory. Navigate to the bin folder. Open the minecraft jar using archive manager or similar. Extract the mods that you want to put in the jar from their zip or rar. Close the window for archive manager. Start playing!</p>
+        <ul>
+          <li><b>Mac:</b></li>
+        </ul>
+        <p>This is a way to install mods using the terminal</p>
+        <dl>
+          <dd>1. Go to Applications &gt; Utilities and open terminal.</dd>
+          <dd>2. Type in the following, line by line:</dd>
+        </dl>
+        <p><code>cd ~<br />
+          mkdir mctmp<br />
+          cd mctmp<br />
+          jar xf ~/Library/Application\ Support/minecraft/bin/minecraft.jar<br /></code></p>
+        <dl>
+          <dd>3. Outside of terminal, copy all the files and folders into the mctmp directory.</dd>
+          <dd>4. Back inside terminal, type in the following:</dd>
+        </dl>
+        <p><code>rm META-INF/MOJANG_C.*<br />
+          jar uf ~/Library/Application\ Support/minecraft/bin/minecraft.jar ./<br />
+          cd ..<br />
+          rm -rf mctmp</code></p>
+        <ul>
+          <li><b>Any OS:</b></li>
+        </ul>
+        <p>On most operating systems you can select the texture packs button on minecraft's main menu which will open the minecraft folder. Click 'up' from there and you will be in the .minecraft directory.</p>
+        <h3><span class="mw-headline" id="Installation_for_the_1.6.2B_launcher">Installation for the 1.6+ launcher</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Mods/Installing_mods&amp;veaction=edit&amp;vesection=12" title="Edit section: Installation for the 1.6+ launcher" class="mw-editsection-visualeditor">edit</a><span class="mw-editsection-divider"> | </span><a href="/index.php?title=Mods/Installing_mods&amp;action=edit&amp;section=12" title="Edit section: Installation for the 1.6+ launcher">edit source</a><span class="mw-editsection-bracket">]</span></span></h3>
+        <ol>
+          <li>Open the 1.6+ <a href="/Launcher" title="Launcher" class="mw-redirect">launcher</a> and make sure the version of <i>Minecraft</i> the mod requires is already installed.</li>
+          <li>Click "Edit Profile" in the launcher, then open the game directory.</li>
+          <li>Go into the subfolder "versions".</li>
+          <li>Rename the folder for the version you require to something else. In this example, rename "1.8.3" to "1.8.3_Modded".</li>
+          <li>Open the 1.8.3_Modded folder.</li>
+          <li>Rename "1.8.3.jar" to "1.8.3_Modded.jar".</li>
+          <li>Rename "1.8.3.json" to "1.8.3_Modded.json".</li>
+          <li>Open "1.8.3_Modded.json" with a text editor and replace "id":"1.8.3" with "id":"1.8.3_Modded", save the file and close it.</li>
+          <li>Open the jar file so you can see all the files in it. You can do this by changing the .jar to .zip and unzipping it. You only need the new jar folder and the json so delete everything else on that directory. No need for WinRAR or 7-Zip. Copy-paste the mod files into the "1.8.3_Modded" new jar folder.
+            <ol>
+              <li>File extensions may be hidden by default, so you may need to tell your File Explorer to not hide them. In Windows 10, simply click View near the top and locate and check the box that says "File Name Extensions". In older versions of windows you will need to go to Organize to locate the box.</li>
+            </ol>
+          </li>
+          <li>Delete META-INF (If needed) . (Be sure to double check whether or not the META-INF file needs to be deleted. Some mods may not run without it. If it doesn't and you save, you can always go back and delete it.)</li>
+          <li>Start the 1.6+ launcher.</li>
+          <li>Click "Edit Profile"</li>
+          <li>In "Use Version", select "1.8.3_Modded".</li>
+          <li>Click Save Profile.</li>
+          <li>Login and play as normal.</li>
+        </ol>
+        <h2>Installing 1.6.1+ mods</span><span class="mw-editsection"></h2>
+        <p>To install a mod for Minecraft 1.6.1+, you can do it 2 ways: with Minecraft Forge or manually. Both are detailed here.</p>
+        <p>(These steps may work with any version from 1.6.1+.)</p>
+        <h3>Installing Mods with Minecraft Forge</span><span class="mw-editsection"></h3>
+        <p>First, find a mod you like and download it. It should be a .jar file. (In the rarest case, it may be a .zip.) <a target="_self" class="external text" href="http://minecraftforum.net/forums">Here</a> is a good website for downloading mods. (Note: <a rel="nofollow" target="_self" class="external text" href="http://modlist.mcf.li/version/1.8">This website</a> is also a good way to search for mods for a particular version of Minecraft that you're modding.) After downloading a mod, go to the <a rel="nofollow" target="_self" class="external text" href="http://files.minecraftforge.net">Minecraft Forge homepage</a>. Now select your version from the list. This tutorial uses 1.8.8 as an example. Download the .jar file of the version you want to mod and run it. Just click OK, you don't need to bother with anything else. After that, install it and then launch <i>Minecraft</i>. (Note: you <b>must</b> had run Minecraft at least once!) Now locate your .minecraft folder. There should be a new folder named 'mods'.</p>
+        <p>Now drag and drop your downloaded mod file into this folder and open up the Minecraft Launcher. Before clicking Play, click 'Edit Profile' to the left. On the 'Select Version' drop down menu, go to the bottom and you will find a '1.8.8Forge' version (or whatever version you are modding). Click that, then OK, and then click Play. It will take longer than usual to load up, especially if you are using multiple mods. Start a world and if whatever your mod does is there, you have successfully installed a mod using Minecraft Forge.</p>
+        <h3>Installing Mods Manually</h3>
+        <table class="msgbox" style="background-color: #FFFFCC; border: 2px solid #616161; padding: 0px 6px 0px 1px; margin: 0 0 1em;"></table>
       </font>
       </html>
