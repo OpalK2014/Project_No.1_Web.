@@ -20,6 +20,7 @@ li {
 
 .nav li a:hover {
     background-color: #15d1db;
+    border-radius: 10px;
 }
 #current {
     background-color: #15d1db;
