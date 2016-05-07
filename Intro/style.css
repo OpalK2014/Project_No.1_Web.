@@ -24,6 +24,7 @@ li {
 }
 #current {
     background-color: #15d1db;
+    border-radius: 10px;
 }
 .main {
  font-size: 22px;
