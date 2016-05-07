@@ -39,11 +39,6 @@ li {
     padding: 10px;
     text-decoration: none;
     font-size: 17px;
-}
-#canvasNumberOne {
-  border-style: solid;   /* The default border style is 'none', so we need to change that */
-  border-color: #333333; /* I want a very specific dark grey color, so I use hexadecimal representation */
-  border-width: 3px;     /* A nice thick line */
-  border-radius: 10px;   /* I'll round the corners to make it look nice */
+    border-radius: 10px;
 }
 
