@@ -12,6 +12,7 @@ li {
   text-align: center;
   font-size: 17px;
   list-style-type: none;
+  border-radius: 10px;
 }
 .nav  {
   color: #FFFFFF;
